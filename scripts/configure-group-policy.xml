@@ -1,0 +1,17 @@
+<AdministrativeTemplate>
+  <Policy>
+    <PolicyName>Configure Automatic Updates</PolicyName>
+    <PolicyDescription>Configures automatic updates</PolicyDescription>
+    <Value>4</Value>
+    <Options>
+      <Option>
+        <KeyName>ScheduledInstallDay</KeyName>
+        <Value>0</Value> <!-- Every day -->
+      </Option>
+      <Option>
+        <KeyName>ScheduledInstallTime</KeyName>
+        <Value>03:00</Value> <!-- 3 AM -->
+      </Option>
+    </Options>
+  </Policy>
+</AdministrativeTemplate>
